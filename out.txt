@@ -1,0 +1,154 @@
+Graph:
+1. Arad:
+        (Sibiu, 140)
+        (Timisoara, 118)
+        (Zerind, 75)
+
+2. Bucharest:
+        (Fagaras, 211)
+        (Giurgiu, 90)
+        (Pitesti, 101)
+        (Urziceni, 85)
+
+3. Craiova:
+        (Drobeta, 120)
+        (Pitesti, 138)
+        (Rimnicu Vilcea, 146)
+
+4. Drobeta:
+        (Craiova, 120)
+        (Mehadia, 75)
+
+5. Eforie:
+        (Hirsova, 85)
+
+6. Fagaras:
+        (Bucharest, 211)
+        (Sibiu, 99)
+
+7. Giurgiu:
+        (Bucharest, 90)
+
+8. Hirsova:
+        (Eforie, 86)
+        (Urziceni, 98)
+
+9. Iasi:
+        (Neamt, 87)
+        (Vaslui, 92)
+
+10. Lugoj:
+        (Mehadia, 70)
+        (Timisoara, 111)
+
+11. Mehadia:
+        (Drobeta, 75)
+        (Lugoj, 70)
+
+12. Neamt:
+        (Iasi, 87)
+
+13. Oradea:
+        (Sibiu, 151)
+        (Zerind, 71)
+
+14. Pitesti:
+        (Bucharest, 101)
+        (Rimnicu Vilcea, 97)
+
+15. Rimnicu Vilcea:
+        (Craiova, 146)
+        (Pitesti, 97)
+        (Sibiu, 80)
+
+16. Sibiu:
+        (Arad, 140)
+        (Fagaras, 99)
+        (Oradea, 151)
+        (Rimnicu Vilcea, 80)
+
+17. Timisoara:
+        (Arad, 118)
+        (Lugoj, 111)
+
+18. Urziceni:
+        (Bucharest, 85)
+        (Hirsova, 98)
+        (Vaslui, 142)
+
+19. Vaslui:
+        (Iasi, 92)
+        (Urziceni, 142)
+
+20. Zerind:
+        (Arad, 75)
+        (Oradea, 71)
+
+
+(1.Arad) -> (16.Sibiu) -> (17.Timisoara) -> (20.Zerind) -> (6.Fagaras) -> (13.Oradea) -> (15.Rimnicu Vilcea) -> (10.Lugoj) -> (2.Bucharest) -> (3.Craiova) -> (14.Pitesti) -> (11.Mehadia) -> (7.Giurgiu) -> (18.Urziceni) -> (4.Drobeta) -> (8.Hirsova) -> (19.Vaslui) -> (5.Eforie) -> (9.Iasi) -> (12.Neamt) ->
+
+3
+16 140
+17 118
+20 75
+4
+6 211
+7 90
+14 101
+18 85
+3
+4 120
+14 138
+15 146
+2
+3 120
+11 75
+1
+8 85
+2
+2 211
+16 99
+1
+2 90
+2
+5 86
+18 98
+2
+12 87
+19 92
+2
+11 70
+17 111
+2
+4 75
+10 70
+1
+9 87
+2
+16 151
+20 71
+2
+2 101
+15 97
+3
+3 146
+14 97
+16 80
+4
+1 140
+6 99
+13 151
+15 80
+2
+1 118
+10 111
+3
+2 85
+8 98
+19 142
+2
+9 92
+18 142
+2
+1 75
+13 71
