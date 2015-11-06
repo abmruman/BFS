@@ -41,7 +41,7 @@ void BFS(Node *, Node *);
 
 int main(){
 	string nodeName;
-	int nodeNumber;
+	int nodeNumber, startNode, goalNode;
 
 	cout << "Number of nodes: ";
 	cin >> nodeNumber;
@@ -92,6 +92,7 @@ int main(){
 		}
 	}
 
+
 	cout << "Graph:\n";
 
 	for (int i = 0; i < nodeNumber; i++){
@@ -109,8 +110,12 @@ int main(){
 		cout << endl;
 	}
 	cout << endl;
-
-	BFS(&graph.nodes[0], nullptr);
+	cout << "\nEnter start node: ";
+    cin >> startNode;
+	cout << "\nEnter goal node: ";
+    cin >> goalNode;
+	cout << "\n\n";
+	BFS(&graph.nodes[startNode-1], &graph.nodes[goalNode-1]);
 
 	return 0;
 }
