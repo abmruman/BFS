@@ -1,1 +1,3 @@
 bfsProject
+*.o
+*.exe

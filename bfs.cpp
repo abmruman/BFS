@@ -65,7 +65,6 @@ int main(){
 	cout << "ID of the nodes:\n";
 
 
-    /** Prints the cities with serial number **/
 	for (int i = 0; i < nodeNumber; i++){
 		cout << i + 1 << ". " << graph.nodes[i].name << "\t";
 	}
@@ -114,7 +113,8 @@ int main(){
     cin >> startNode;
 	cout << "\nEnter goal node: ";
     cin >> goalNode;
-	cout << "\n\n";
+	cout << "\n\nBreadth-first search:\n\n";
+
 	BFS(&graph.nodes[startNode-1], &graph.nodes[goalNode-1]);
 
 	return 0;
